@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nike Store</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="navtop">
+            <div class="navitem">
+                <img src="./img/logo.png" alt="logoimage" width="120px" height="90px">
+            </div>
+            <div class="navitem">
+                <div class="search">
+                    <input type="text" id="textinput" placeholder="search" class="searchInput">
+                    <img src="./img/search.png" alt="searchimage" width="20" height="20" class="searchIcon">
+                </div>
+            </div>
+            <div class="navitem"> 
+                <span class="limitedOffer"><b>Limited Offer!</b></span>
+            </div>
+        </div>
+        <div class="navbottom">
+            <h3 class="menuItem">DUNK</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+            <h3 class="menuItem">AIR FORCE</h3>
+        </div>
+    </nav>
+    <div class="slider" id="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/dunk.jpg" alt="dunkshoes" class="sliderImg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">DUNK<br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$110</h2>
+                <a href="#product">
+                    <button class="buy">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordans.png" alt="jordanshoes" class="sliderImg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">JORDANS <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$130</h2>
+                <a href="#product">
+                    <button class="buy">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/blazer.jpeg" alt="blazershoes" class="sliderImg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">BLAZER <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$125</h2>
+                <a href="#product">
+                    <button class="buy">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/creator.jpg" alt="cratorshoes" class="sliderImg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">CRATOR <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$100</h2>
+                <a href="#product">
+                    <button class="buy">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.jpeg" alt="hippieshoes" class="sliderImg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">HIPPIE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$145</h2>
+               <a href="#product">
+                    <button class="buy">BUY NOW!</button>
+               </a> 
+            </div>
+            <div class="sliderItem">
+                <img src="./img/airforce.jpg" alt="airforceshoes" class="sliderImg">
+                <div class="slideBG"></div>
+                <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                    <button class="buy">BUY NOW!</button>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img class="featureIcon" src="./img/delivery-truck.png" alt="">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift-card.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/customer-service.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">keep in touch via email and support system.</span>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <img src="./img/dunk.jpg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">DUNK</h1>
+            <h2 class="productPrice">$110</h2>
+            <p class="productDesc">The '80s b-ball icon returns with classic details and throwback hoops flair. Channelling vintage style back onto the streets, its padded, low-cut collar lets you take your game anywhere—in comfort.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">38</div>
+                <div class="size">39</div>
+                <div class="size">40</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Sanjana S" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+91 7338590055" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="22, 3rd Cross, Kalyan Nagar, Bangalore 560072" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/logo-mastercard-visa.png" width="110" alt="" class="cardIcon">  
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton" onclick="myFunction()">Checkout</button>
+            <span class="close">&nbsp&nbspX</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="./img/a6665662-4558-4a61-a15b-eb3e3347af27.webp" alt="image" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/sanne-poeze-girl-on-kicks-interview-6-2.jpg" alt="image" class="galleryImg" style="margin-top: 25px; height: 85%;">
+            <h1 class="galleryTitle">This is First Day of your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Run On Air!</h1>
+            <img src="./img/0935a166e118b35cf2822722b9fba849.jpg" alt="image" class="galleryImg" style="height: 85%;">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="./img/newseason1.jpg" alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="./img/newseason2.jpg" alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fMenuList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fMenuList">
+                    <li class="fListItem">support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <a href="#slider">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fMenuList" >
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Blazers</li>
+                    <li class="fListItem">Crators</li>
+                    <li class="fListItem">Dunk</li>
+                    <li class="fListItem">Hippie</li>
+                    <li class="fListItem">Jordans</li>
+                </ul>
+            </a>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="finput">
+                    <button class="fButton" onclick="subscribe()">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                    <img src="./img/twitter-sign.png" alt="" class="fIcon">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Sanjana. All rights reserved. 2023</span>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./main.js">
+    </script>
+    
+</body>
+</html>
